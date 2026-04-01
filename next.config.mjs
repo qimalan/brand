@@ -2,6 +2,7 @@
 const nextConfig = {
   output: "export",
   basePath: "/brand",
+  assetPrefix: "/brand/",
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -10,6 +11,7 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    path: "/brand/",
   },
   trailingSlash: true,
 }
